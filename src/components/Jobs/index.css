@@ -1,0 +1,188 @@
+.jobs-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  background-color: #000000;
+  padding: 50px;
+}
+.profile-filter-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 26%;
+}
+.profile-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-size: cover;
+  width: 100%;
+}
+.profile-img {
+  width: 60px;
+  height: 60px;
+}
+.profile-card h1 {
+  color: #6366f1;
+  font-family: roboto;
+  font-size: 31px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.profile-card p {
+  color: #64748b;
+  font-family: roboto;
+  font-size: 17px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+hr {
+  border: 1px solid #b6c5ff;
+  width: 100%;
+}
+.Employment-head {
+  font-size: 23px;
+  font-weight: bold;
+  font-family: roboto;
+  color: #ffffff;
+  margin: 10px 0px 30px 0px;
+}
+.salary-head {
+  font-size: 23px;
+  font-weight: bold;
+  font-family: roboto;
+  color: #ffffff;
+  margin: 10px 0px 30px 0px;
+}
+.Employment-ul {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 0px;
+}
+.salary-ul {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 0px;
+}
+.Employment-ul label {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: roboto;
+}
+.salary-ul label {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: roboto;
+}
+.Employment-ul input {
+  height: 15px;
+  width: 15px;
+}
+.salary-ul input {
+  height: 15px;
+  width: 15px;
+}
+.Employment-ul li {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+.salary-ul li {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+.jobs-search-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.jobs-search-cont input {
+  height: 40px;
+  border: 1px solid #b6c5ff;
+  padding: 5px 5px 5px 20px;
+  background-color: transparent;
+  width: 400px;
+  color: #ffffff;
+  font-size: 20px;
+  border-right: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+}
+.jobs-search-cont button {
+  height: 40px;
+  background-color: #202020;
+  width: 60px;
+  border: 1px solid #b6c5ff;
+  border-left: 0px;
+  margin: 0px;
+  font-size: 25px;
+  display: felx;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.search-icon {
+  color: #ffffff;
+}
+.jobs-collection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+/*.......................................*/
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 41vh;
+}
+.retry-btn {
+  height: 40px;
+  width: 120px;
+  border: 0px;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #4f46e5;
+}
+.job-fail-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.itemfailimg {
+  height: 300px;
+  width: 350px;
+}
+.job-fail-cont h1 {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 30px;
+  font-weight: bold;
+}
+.job-fail-cont p {
+  color: #64748b;
+  font-family: roboto;
+  font-size: 20px;
+}

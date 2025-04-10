@@ -1,0 +1,100 @@
+.company-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 15px;
+  background-color: #202020;
+  padding: 40px;
+}
+.about-company {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.about-company img {
+  height: 70px;
+  width: 70px;
+}
+.about-company div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-company div h1 {
+  font-family: roboto;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0px;
+}
+.about-company div div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.star-icon {
+  color: #fbbf24;
+  height: 30px;
+  width: 30px;
+}
+.about-company div div p {
+  margin: 0px;
+  font-family: roboto;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.job-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.location-employment-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+}
+.location-employment-type div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.loaction-icon {
+  height: 35px;
+  width: 35px;
+  color: #ffffff;
+}
+.location-employment-type div p {
+  font-family: roboto;
+  font-size: 20px;
+  margin: 0px;
+  color: #ffffff;
+}
+.job-type h1 {
+  font-family: roboto;
+  font-size: 23px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0px;
+}
+.company-details h1 {
+  font-family: roboto;
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0px;
+}
+.company-details p {
+  font-family: roboto;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 1.8;
+  margin: 0px;
+}
+.link {
+  text-decoration: none;
+}

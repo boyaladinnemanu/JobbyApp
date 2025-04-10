@@ -1,0 +1,32 @@
+.SimilarJobs-cont {
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.similar-description-cont {
+  display: flex;
+  flex-direction: column;
+}
+.similar-description-cont h1 {
+  font-family: roboto;
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.similar-description-cont p {
+  font-family: roboto;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 1.8;
+}
+.location-employment-type {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: none;
+}
