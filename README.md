@@ -1,5 +1,7 @@
 In this project, let's build a **Jobby App** by applying the concepts we have learned till now.
 
+###User Name And Password: rahul,rahul@2021
+###Live Link : https://manusjobbyapp.ccbp.tech
 ### Refer to videos below:
 
 <div style="text-align: center;">
